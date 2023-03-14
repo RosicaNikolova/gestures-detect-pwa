@@ -22,6 +22,7 @@ body{
 
 .gesture-desciption-headline{
     font-size: 6vh;
+    margin-top: 35vh;
 }
 
 .gesture-detection-headline{
@@ -46,4 +47,8 @@ body{
 		height: 50%;
 		width: 100%;
 	}
+    .gesture-desciption-headline{
+        margin-top: 10vh;
+    }
+    
 }
