@@ -1,26 +1,48 @@
 
 /*My css*/
-
-.desciption{
-	background-color: aquamarine;
-	width: 50%;
-
+body{
+    margin: 0;
+    padding: 0;
 }
 
-.gestures{
+.flex-container{
+    display: flex;
+    height: 100vh;
+    text-align: center;
+}
+.gesture-desciption{
+	background-color: aquamarine;
+	width: 50%;
+}
+
+.gesture-detection{
 	background-color: pink;
 	width: 50%;
+}
+
+.gesture-desciption-headline{
+    font-size: 6vh;
+}
+
+.gesture-detection-headline{
+    font-size: 6vh;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+}
+
+.gesture-desciption-text{
+    font-size: 5vh;
 }
 
 @media screen and (max-width: 540px){
 	.flex-container{
 		flex-direction: column;
 	}
-	.desciption{
+	.gesture-desciption{
 		width: 100%;
 		height: 50%;
 	}
-	.gestures{
+	.gesture-detection{
 		height: 50%;
 		width: 100%;
 	}
