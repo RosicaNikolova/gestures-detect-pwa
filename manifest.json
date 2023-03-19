@@ -1,13 +1,13 @@
 {
-  "name": "Weather: Do I need an umbrella?",
-  "short_name": "Weather",
+  "name": "Gestures UI",
+  "short_name": "Gestures",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#3367D6",
   "theme_color": "#3367D6",
   "id": "/?source=pwa",
   "scope": ".",
-  "description": "Weather forecast information",
+  "description": "Detecting Gestures",
     "icons": [
       {
         "src": "images/manifest-icon-192.maskable.png",

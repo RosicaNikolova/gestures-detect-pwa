@@ -11,12 +11,12 @@ body{
     text-align: center;
 }
 .gesture-desciption{
-	background-color: aquamarine;
+	background-color: #FAE1DD;
 	width: 50%;
 }
 
 .gesture-detection{
-	background-color: pink;
+	background-color: #F8EDEB;
 	width: 50%;
 }
 
